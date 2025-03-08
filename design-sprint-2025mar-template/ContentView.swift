@@ -16,7 +16,7 @@ struct ContentView: View {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
 
-            Text("Hello, medVR!")
+            Text("Hello, medVR world!")
 
             ToggleImmersiveSpaceButton()
         }
